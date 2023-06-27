@@ -1,15 +1,15 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
-import Footer from '../Footer/Footer';
-import Navbar from '../Navbar/Navbar';
 import Banner from '../Banner/Banner';
-import Features from '../Features/Features';
+import Feature from '../Features/Feature';
+import Projects from '../Projects/Projects';
+// import Features from '../Features/Features';
 
 const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <Features></Features>
+            <Feature></Feature>
+            <Projects></Projects>
         </div>
     );
 };
