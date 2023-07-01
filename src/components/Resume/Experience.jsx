@@ -2,12 +2,12 @@ import React from 'react';
 import ResumeCard from './ResumeCard';
 import { motion } from "framer-motion"
 
-const Education = () => {
+const Experience = () => {
     return (
         <motion.div initial={{opacity:0}} animate={{opacity:1, transition:{duration: 0.8}}} className='w-full flex justify-between items-center'>
             <div>
                 <div className='pt-5 font-titleFont'>
-                    <h2 className='text-3xl font-bold  mt-10'>Education Quality</h2>
+                    <h2 className='text-3xl font-bold  mt-10'>Job Experience</h2>
                 </div>
                 <div className='mt-4 w-full flex justify-between border-l-[6px] border-l-black border-opacity-30  gap-10'>
                     <ResumeCard
@@ -22,7 +22,7 @@ const Education = () => {
 
             <div>
                 <div className='pt-5 font-titleFont'>
-                    {/* <h2 className='text-3xl font-bold mt-10'>Education Quality</h2> */}
+                    <h2 className='text-3xl font-bold mt-10'>Training Experience</h2>
                 </div>
                 <div className='mt-4 w-full flex justify-between border-l-[6px] border-l-black border-opacity-30  gap-10'>
                     <ResumeCard
@@ -38,4 +38,4 @@ const Education = () => {
     );
 };
 
-export default Education;
+export default Experience;

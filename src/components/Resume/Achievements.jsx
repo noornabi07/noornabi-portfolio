@@ -2,14 +2,14 @@ import React from 'react';
 import ResumeCard from './ResumeCard';
 import { motion } from "framer-motion"
 
-const Education = () => {
+const Achievements = () => {
     return (
         <motion.div initial={{opacity:0}} animate={{opacity:1, transition:{duration: 0.8}}} className='w-full flex justify-between items-center'>
             <div>
                 <div className='pt-5 font-titleFont'>
-                    <h2 className='text-3xl font-bold  mt-10'>Education Quality</h2>
+                    <h2 className='text-3xl font-bold  mt-10'>Achievements</h2>
                 </div>
-                <div className='mt-4 w-full flex justify-between border-l-[6px] border-l-black border-opacity-30  gap-10'>
+                <div className='mt-4 w-full flex justify-between  border-l-[6px] border-l-black border-opacity-30  gap-10'>
                     <ResumeCard
                         title="Secondary School Education"
                         subTitle="Jharbari Amjadiya Dakhil Madrasha - 2019"
@@ -38,4 +38,4 @@ const Education = () => {
     );
 };
 
-export default Education;
+export default Achievements;
