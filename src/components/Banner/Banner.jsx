@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact, FaNodeJs } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import {  SiFigma,  } from "react-icons/si";
 import { AiFillGithub } from "react-icons/Ai";
 import { IoLogoJavascript } from "react-icons/Io";
 import { BiLogoMongodb } from "react-icons/Bi";

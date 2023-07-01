@@ -2,7 +2,6 @@ import React from 'react';
 import Title from '../Title/Title';
 import './Projects.css'
 import { FaGithub, FaGlobe, FaArrowRight } from 'react-icons/fa';
-import { TiDelete } from 'react-icons/Ti';
 import { Link } from 'react-router-dom';
 
 const Projects = () => {
@@ -23,7 +22,7 @@ const Projects = () => {
                     </div>
                     <div className='lg:w-[310px] mt-5'>
                         <p>This is a training center base website. Where there are 3 dashboards. The website has been formed by admin, student, instructor </p>
-                        <span onClick={() => window.my_modal_1.showModal()}><FaArrowRight className='text-3xl font-semibold mt-3 text-red-500'></FaArrowRight>
+                        <span onClick={() => window.my_modal_1.showModal()}><FaArrowRight className='text-3xl font-semibold mt-3 text-red-500 cursor-pointer'></FaArrowRight>
                         </span>
                     </div>
 
@@ -91,7 +90,7 @@ const Projects = () => {
                     </div>
                     <div className='lg:w-[310px] mt-5'>
                         <p>This is a training center base website. Where there are 3 dashboards. The website has been formed by admin, student, instructor </p>
-                        <span onClick={() => window.my_modal_2.showModal()}><FaArrowRight className='text-3xl font-semibold mt-3 text-red-500'></FaArrowRight>
+                        <span onClick={() => window.my_modal_2.showModal()}><FaArrowRight className='text-3xl font-semibold mt-3 cursor-pointer text-red-500'></FaArrowRight>
                         </span>
                     </div>
 
@@ -158,7 +157,7 @@ const Projects = () => {
                     </div>
                     <div className='lg:w-[310px] mt-5'>
                         <p>It is an information network base website. Here is information on selecting staff to cook preferred foods. Employees will be appointed after seeing the preferred food</p>
-                        <span onClick={() => window.my_modal_3.showModal()}><FaArrowRight className='text-3xl font-semibold mt-3 text-red-500'></FaArrowRight>
+                        <span onClick={() => window.my_modal_3.showModal()}><FaArrowRight className='text-3xl font-semibold mt-3 cursor-pointer text-red-500'></FaArrowRight>
                         </span>
                     </div>
                 </div>
