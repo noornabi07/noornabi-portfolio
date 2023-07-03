@@ -9,7 +9,8 @@ const Projects = () => {
         <section id='projects' className='w-full py-20 border-b-[1px] border-b-black'>
             <Title title="VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK" des="My Projects"></Title>
 
-            <div className='flex gap-5 justify-between'>
+            <div data-aos="zoom-in" data-aos-duration="500"
+                data-aos-easing="linear" className='flex gap-5 justify-between'>
                 <div>
                     <div className='container container1'></div>
                     <div className='flex justify-between items-center mt-5'>

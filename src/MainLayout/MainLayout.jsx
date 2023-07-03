@@ -1,8 +1,8 @@
 import React from 'react';
-import Home from '../components/Home/Home';
 import Navbar from '../components/Navbar/Navbar';
 import { Outlet } from 'react-router-dom';
 import Footer from '../components/Footer/Footer';
+import FooterBottom from '../components/Footer/FooterBottom';
 
 const MainLayout = () => {
     return (
@@ -10,7 +10,8 @@ const MainLayout = () => {
             <div className='max-w-screen-xl mx-auto'>
                 <Navbar></Navbar>
                 <Outlet></Outlet>
-                {/* <Footer></Footer> */}
+                <Footer></Footer>
+                <FooterBottom></FooterBottom>
             </div>
         </div>
     );

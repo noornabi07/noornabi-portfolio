@@ -9,7 +9,8 @@ const ContactInfo = () => {
     return (
         <div>
             <div className=' h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne'>
-                <img className='w-full h-64 object-cover rounded-lg mb-2' src={contactImg} alt="" />
+                <img data-aos="flip-left" data-aos-duration="500"
+        data-aos-easing="linear" className='w-full h-64 object-cover rounded-lg mb-2' src={contactImg} alt="" />
 
                 <div className='flex flex-col gap-4'>
                     <h3 className='text-3xl font-bold text-white mt-3'>Md Noornabi Islam</h3>
