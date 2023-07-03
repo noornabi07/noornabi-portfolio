@@ -10,7 +10,7 @@ import banner from '../../assets/banner1.png'
 
 const Banner = () => {
     const [text] = useTypewriter({
-        words: ["Professional Coder.", "Frontend Developer.", "UI Designer."],
+        words: ["React Developer.", "Frontend Developer.", "Professional Coder.", "UI Designer."],
         loop: true,
         typeSpeed: 20,
         deleteSpeed: 10,

@@ -21,7 +21,7 @@ const Navbar = () => {
             <div>
                 <ul className='flex items-center gap-10'>
                     {
-                        navLinks.map((navlink) => <li className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300" key={navlink._id}>
+                        navLinks.map((navlink) => <li className="text-base font-normal text-white tracking-wide cursor-pointer hover:text-designColor duration-300" key={navlink._id}>
                             <Link
                                 activeClass="active"
                                 to={navlink.link}
