@@ -28,7 +28,7 @@ const Banner = () => {
     }
 
     return (
-        <section id='home' className="pt-8 pb-10 px-4 flex flex-col lgl:flex-row justify-between items-center font-titleFont ">
+        <section id='home' className="pt-8 pb-10 px-4 lg:flex justify-between items-center font-titleFont ">
             {/* Left Banner part */}
             <div className='w-full md:w-1/2 flex flex-col gap-20'>
                 <div className='flex flex-col gap-4'>
