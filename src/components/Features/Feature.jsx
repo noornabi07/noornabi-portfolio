@@ -11,7 +11,7 @@ const Feature = () => {
         <section id='features' className="w-full pb-20 border-b-[1px] border-b-black">
             <Title title="Features" des="What I Do"></Title>
 
-            <div className='grid grid-cols-3 justify-center gap-20'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-5 md:gap-20'>
                 <Card  titles="Web Design" descrip="Web design refers to the process of creating the visual layout, appearance, and overall aesthetics of a website. It involves planning and designing the various elements that users see and interact with when they visit a website. Web design is crucial for creating an engaging and user-friendly experience that aligns with the website's purpose and goals." icon={<MdWeb></MdWeb>}></Card>
 
                 <Card titles="UI Design" descrip="Collaborating with clients and stakeholders to create wireframes, mockups, and prototypes that outline the visual and interactive aspects of the website or application. UI designers consider factors such as usability, accessibility, and branding to design interfaces that are aesthetically pleasing and user-friendly." icon={<SiAntdesign></SiAntdesign>}></Card>

@@ -96,17 +96,17 @@ const Contact = () => {
     };
 
     return (
-        <section id='contact' className='w-full py-20 '>
+        <section id='contact' className='w-full py-7 md:py-20 '>
             <Title title="Contact" des="Contact With Me"></Title>
 
             <div className='w-full'>
-                <div className='w-full h-auto flex gap-20 items-center'>
-                    <div className='w-[40%]'>
+                <div className='w-full h-auto md:flex gap-20 items-center'>
+                    <div className='w-full md:w-[40%]'>
                         <ContactInfo></ContactInfo>
                     </div>
 
                     {/* right side */}
-                    <div className='w-[60%] h-full -mt-24 from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne flex flex-col'>
+                    <div className='w-full md:w-[60%] h-full px-4 md:px-0 md:-mt-24 from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne flex flex-col'>
                         <form ref={form} onSubmit={handleSend} className='w-full flex flex-col gap-6 py-2'>
                             {/* error and success message */}
                             {errMsg && (

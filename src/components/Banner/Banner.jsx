@@ -28,15 +28,15 @@ const Banner = () => {
     }
 
     return (
-        <section id='home' className="pt-8 pb-10 flex justify-between items-center font-titleFont border-b-[1px] border-b-black">
+        <section id='home' className="pt-8 pb-10 px-4 flex flex-col lgl:flex-row justify-between items-center font-titleFont ">
             {/* Left Banner part */}
-            <div className='w-1/2 flex flex-col gap-20'>
+            <div className='w-full md:w-1/2 flex flex-col gap-20'>
                 <div className='flex flex-col gap-4'>
                     <h4 className='text-lg font-normal'>WELCOME TO MY WORLD</h4>
-                    <h1 className='text-6xl font-bold text-white'>
+                    <h1 className='text-3xl md:text-6xl font-bold text-white'>
                         Hi, I'm
                         <span className='text-designColor capitalize'> Noornabi</span></h1>
-                    <h2 className='text-4xl font-bold text-white'>
+                    <h2 className='text-2xl md:text-4xl font-bold text-white'>
                         a <span className='text-pink-500'>{text}</span>
                         <Cursor
                             cursorBlinking="false"
@@ -49,18 +49,18 @@ const Banner = () => {
                         effectively manage my time and prioritize tasks. Dedicated to continuous learning and staying
                         up-to-date with the latest technologies and trends in development</p>
 
-                    <div className='flex gap-4'>
+                    <div className='md:flex gap-4'>
 
                         <button onClick={downloadResume} className="btn btn-outline btn-secondary">Download Resume</button>
 
 
                         <Link to="https://drive.google.com/file/d/1f3O5d2qP_T6XuwLE0F-myBoiEYidGTUK/view?usp=drive_link" target='_blank'>
-                            <button className="btn btn-outline btn-secondary">Preview Resume</button>
+                            <button className="btn btn-outline btn-secondary mt-3 md:mt-0">Preview Resume</button>
                         </Link>
                     </div>
                 </div>
 
-                <div className='flex justify-between items-center'>
+                <div className='md:flex justify-between items-center'>
                     <div>
                         <h2 className='text-base uppercase font-titleFont mb-4'>Find me in</h2>
                         <div className="flex">
@@ -80,7 +80,7 @@ const Banner = () => {
                         </div>
                     </div>
 
-                    <div>
+                    <div className='mt-3 md:mt-0'>
                         <h2 className='text-base uppercase font-titleFont mb-4'>Best Skills On</h2>
                         <div className="flex">
                             <span className="bannerIcon">
@@ -104,10 +104,12 @@ const Banner = () => {
             </div>
 
             {/* Right Banner Part */}
-            <div  className='w-1/2 flex justify-center items-center'>
+            <div  className='w-full lgl:w-1/2 flex justify-center items-center'>
                 <img data-aos="zoom-in" data-aos-duration="500"
-                data-aos-easing="linear" className='w-[500px] h-[680px] z-10' src={banner} alt="" />
-                <div className="absolute bottom-0 w-[350px] h-[300px] lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"></div>
+                data-aos-easing="linear" className='w-[300px] h-[400px] lgl:w-[500px] lgl:h-[680px] z-10' src={banner} alt="" />
+                {/* <div className="absolute bottom-0 w-[350px] h-[300px] lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center">
+
+                </div> */}
             </div>
         </section>
     );

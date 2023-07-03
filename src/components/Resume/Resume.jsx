@@ -14,8 +14,8 @@ const Resume = () => {
         <section id='resume' className='w-full py-20 border-b-[1px] border-b-black'>
             <Title title="1+ YEARS OF EXPERIENCE" des="My Resume"></Title>
 
-            <div>
-                <ul className='grid grid-cols-4 gap-20 justify-center'>
+            <div className='mx-4'>
+                <ul className='grid grid-cols-2 lg:grid-cols-4 lg:gap-20 justify-center'>
                 <li onClick={() =>
                         setSkillsData(true) &
                         setEducationData(false) &

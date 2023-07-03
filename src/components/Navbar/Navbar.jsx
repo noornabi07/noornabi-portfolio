@@ -6,7 +6,7 @@ import { Link } from 'react-scroll'
 
 const Navbar = () => {
     return (
-        <div className='w-full h-20 sticky top-0 z-20 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600'>
+        <div className='w-full h-20 sticky top-0 z-20 bg-bodyColor mx-auto md:flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600'>
             <div className='flex items-center'>
                 <div className="avatar">
                     <div className="w-12 rounded-full">
@@ -19,9 +19,9 @@ const Navbar = () => {
             </div>
 
             <div>
-                <ul className='flex items-center gap-10'>
+                <ul className='flex items-center gap-2 md:gap-10 '>
                     {
-                        navLinks.map((navlink) => <li className="text-base font-normal text-white tracking-wide cursor-pointer hover:text-designColor duration-300" key={navlink._id}>
+                        navLinks.map((navlink) => <li className="md:text-base font-normal md:text-white tracking-wide cursor-pointer hover:text-designColor duration-300" key={navlink._id}>
                             <Link
                                 activeClass="active"
                                 to={navlink.link}

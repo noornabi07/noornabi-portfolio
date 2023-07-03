@@ -1,15 +1,15 @@
 import React from 'react';
-import ResumeCard from './ResumeCard';
 import { motion } from "framer-motion"
 
 const Skills = () => {
     return (
-        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { duration: 0.8 } }} className='w-full flex justify-between gap-10 items-center'>
-            <div className='w-1/2'>
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { duration: 0.8 } }} className='w-full md:flex justify-between gap-10 items-center'>
+            <div className='w-full md:w-1/2 px-4'>
                 <div className='pt-5 font-titleFont'>
-                    <h2 className='text-3xl font-bold  -mt-16'>Design Skill</h2>
+                    <h2 className='text-3xl font-bold  lg:-mt-16'>Design Skill</h2>
                 </div>
-                <div className='mt-2 w-full flex flex-col gap-4'>
+
+                <div className='mt-2 w-full md:flex md:flex-col gap-4'>
                     {/* photoshop */}
                     <div className='overflow-x-hidden'>
                         <p className='text-sm uppercase font-medium'>figma</p>
@@ -74,7 +74,7 @@ const Skills = () => {
             {/* development skills */}
 
 
-            <div className='w-1/2'>
+            <div className='w-full md:w-1/2 px-4'>
                 <div className='pt-5 font-titleFont'>
                     <h2 className='text-3xl font-bold mt-16'>Development Skill</h2>
                 </div>

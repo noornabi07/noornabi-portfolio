@@ -4,12 +4,12 @@ import { motion } from "framer-motion"
 
 const Education = () => {
     return (
-        <motion.div initial={{opacity:0}} animate={{opacity:1, transition:{duration: 0.8}}} className='w-full flex justify-between items-center'>
+        <motion.div initial={{opacity:0}} animate={{opacity:1, transition:{duration: 0.8}}} className='w-full md:flex justify-between items-center'>
             <div>
                 <div className='pt-5 font-titleFont'>
                     <h2 className='text-3xl font-bold  mt-10'>Education Quality</h2>
                 </div>
-                <div className='mt-4 w-full flex justify-between border-l-[6px] border-l-black border-opacity-30  gap-10'>
+                <div className='mt-4 w-full flex justify-between border-l-[6px] border-l-black border-opacity-30'>
                     <ResumeCard
                         title="Secondary School Education"
                         subTitle="Jharbari Amjadiya Dakhil Madrasha - 2019"
@@ -24,7 +24,7 @@ const Education = () => {
                 <div className='pt-5 font-titleFont'>
                     {/* <h2 className='text-3xl font-bold mt-10'>Education Quality</h2> */}
                 </div>
-                <div className='mt-20 w-full flex justify-between border-l-[6px] border-l-black border-opacity-30  gap-10'>
+                <div className='mt-20 w-full flex justify-between border-l-[6px] border-l-black border-opacity-30 '>
                     <ResumeCard
                         title="Diploma in Computer Science"
                         subTitle="Present 2023 - Session 2019-2020"

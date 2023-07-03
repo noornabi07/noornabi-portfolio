@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 
 const Achievements = () => {
     return (
-        <motion.div initial={{opacity:0}} animate={{opacity:1, transition:{duration: 0.8}}} className='w-1/3 mx-auto flex justify-center items-center'>
+        <motion.div initial={{opacity:0}} animate={{opacity:1, transition:{duration: 0.8}}} className='w-full md:w-1/3 mx-auto flex justify-center items-center'>
             <div>
                 <div className='pt-5 font-titleFont text-center'>
                     <h2 className='text-3xl font-bold -ml-20  mt-10'>Achievements</h2>

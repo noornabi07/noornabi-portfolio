@@ -10,18 +10,20 @@ const Projects = () => {
             <Title title="VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK" des="My Projects"></Title>
 
             <div data-aos="zoom-in" data-aos-duration="500"
-                data-aos-easing="linear" className='flex gap-5 justify-between'>
+                data-aos-easing="linear" className='md:flex gap-5 justify-between px-4 md:px-0'>
+
+                {/* martial arts */}
                 <div>
                     <div className='container container1'></div>
-                    <div className='flex justify-between items-center mt-5'>
+                    <div className='flex md:justify-between items-center mt-5'>
                         <h3 className='text-xl uppercase font-bold tracking-wide'>The Martial Arts</h3>
-                        <div>
+                        <div className='ml-3 md:ml-0'>
                             <Link to="https://martial-arts-1c961.web.app/" target='_blank' className='hover:text-designColor cursor-pointer duration-500 text-xl'>
                                 <FaGlobe></FaGlobe>
                             </Link>
                         </div>
                     </div>
-                    <div className='lg:w-[310px] mt-5'>
+                    <div className='lg:w-[310px] mt-5 mb-3 md:mb-0'>
                         <p>This is a training center base website. Where there are 3 dashboards. The website has been formed by admin, student, instructor </p>
                         <span onClick={() => window.my_modal_1.showModal()}><FaArrowRight className='text-3xl font-semibold mt-3 text-red-500 cursor-pointer'></FaArrowRight>
                         </span>
@@ -83,13 +85,15 @@ const Projects = () => {
                 {/* Animal toys shop */}
                 <div>
                     <div className='container container2'></div>
-                    <div className='flex justify-between items-center mt-5'>
+                    <div className='flex md:justify-between items-center mt-5'>
                         <h3 className='text-xl uppercase font-bold tracking-wide'>The Animal Toys Shop</h3>
-                        <Link to="https://animal-toys-shop.web.app/" className='hover:text-designColor cursor-pointer duration-500 text-xl'>
-                            <FaGlobe></FaGlobe>
-                        </Link>
+                        <div className='ml-3 md:ml-0'>
+                            <Link to="https://animal-toys-shop.web.app/" className='hover:text-designColor cursor-pointer duration-500 text-xl'>
+                                <FaGlobe></FaGlobe>
+                            </Link>
+                        </div>
                     </div>
-                    <div className='lg:w-[310px] mt-5'>
+                    <div className='lg:w-[310px] mt-5 mb-3 md:mb-0'>
                         <p>This is a training center base website. Where there are 3 dashboards. The website has been formed by admin, student, instructor </p>
                         <span onClick={() => window.my_modal_2.showModal()}><FaArrowRight className='text-3xl font-semibold mt-3 cursor-pointer text-red-500'></FaArrowRight>
                         </span>
@@ -150,13 +154,15 @@ const Projects = () => {
                 {/* the food network */}
                 <div>
                     <div className='container container3'></div>
-                    <div className='flex justify-between items-center mt-5'>
+                    <div className='flex md:justify-between items-center mt-5'>
                         <h3 className='text-xl uppercase font-bold tracking-wide'>The Foods Network</h3>
-                        <Link to="https://the-food-network-client.web.app/" target='_blank' className='hover:text-designColor cursor-pointer duration-500 text-xl'>
-                            <FaGlobe></FaGlobe>
-                        </Link>
+                        <div className='ml-3 md:ml-0'>
+                            <Link to="https://the-food-network-client.web.app/" target='_blank' className='hover:text-designColor cursor-pointer duration-500 text-xl'>
+                                <FaGlobe></FaGlobe>
+                            </Link>
+                        </div>
                     </div>
-                    <div className='lg:w-[310px] mt-5'>
+                    <div className='lg:w-[310px] mt-5 mb-3 md:mb-0'>
                         <p>It is an information network base website. Here is information on selecting staff to cook preferred foods. Employees will be appointed after seeing the preferred food</p>
                         <span onClick={() => window.my_modal_3.showModal()}><FaArrowRight className='text-3xl font-semibold mt-3 cursor-pointer text-red-500'></FaArrowRight>
                         </span>
