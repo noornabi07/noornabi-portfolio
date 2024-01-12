@@ -7,6 +7,7 @@ import { IoLogoJavascript } from "react-icons/Io";
 import { BiLogoMongodb } from "react-icons/Bi";
 import { Link } from "react-router-dom";
 import banner from '../../assets/banner1.png'
+// import rounded from '../../assets/white-img.png'
 
 import resume from '../../assets/Finallist Resume.pdf'
 
@@ -60,7 +61,9 @@ const Banner = () => {
                     </div>
                 </div>
 
-                <div className='md:flex justify-between items-center'>
+                {/* TODO THIS IS */}
+
+                {/* <div className='md:flex justify-center items-center'>
                     <div>
                         <h2 className='text-base uppercase font-titleFont mb-4'>Find me in</h2>
                         <div className="flex">
@@ -100,13 +103,14 @@ const Banner = () => {
                             </span>
                         </div>
                     </div>
-                </div>
+                    
+                </div> */}
             </div>
 
             {/* Right Banner Part */}
             <div  className='w-full lgl:w-1/2 flex justify-center items-center'>
                 <img data-aos="zoom-in" data-aos-duration="500"
-                data-aos-easing="linear" className='w-[300px] h-[400px] lgl:w-[500px] lgl:h-[680px] z-10' src={banner} alt="" />
+                data-aos-easing="linear" className='w-[300px] h-[400px] lgl:w-[500px] lgl:h-[680px]  z-10' src={banner} alt="" />
                 {/* <div className="absolute bottom-0 w-[350px] h-[300px] lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center">
 
                 </div> */}
