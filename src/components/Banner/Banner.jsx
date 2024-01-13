@@ -1,15 +1,10 @@
 import React from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact, FaNodeJs } from "react-icons/fa";
-import { SiFigma, } from "react-icons/si";
-import { AiFillGithub } from "react-icons/Ai";
-import { IoLogoJavascript } from "react-icons/Io";
-import { BiLogoMongodb } from "react-icons/Bi";
 import { Link } from "react-router-dom";
 import banner from '../../assets/banner1.png'
 // import rounded from '../../assets/white-img.png'
-
-import resume from '../../assets/Finallist Resume.pdf'
+import resume from '../../assets/resume/Noornabi Resume for React Developer.pdf'
+import photo from '../../../src/assets/Untitled design.png'
 
 
 const Banner = () => {
@@ -55,7 +50,7 @@ const Banner = () => {
                         <button onClick={downloadResume} className="btn btn-outline btn-secondary">Download Resume</button>
 
 
-                        <Link to="https://drive.google.com/file/d/1f3O5d2qP_T6XuwLE0F-myBoiEYidGTUK/view?usp=drive_link" target='_blank'>
+                        <Link to="https://drive.google.com/file/d/1lU4WgcuDDxIhITspzzzOOZtsVF9Y8Eq0/view?usp=drive_link" target='_blank'>
                             <button className="btn btn-outline btn-secondary mt-3 md:mt-0">Preview Resume</button>
                         </Link>
                     </div>
@@ -111,6 +106,8 @@ const Banner = () => {
             <div  className='w-full lgl:w-1/2 flex justify-center items-center'>
                 <img data-aos="zoom-in" data-aos-duration="500"
                 data-aos-easing="linear" className='w-[300px] h-[400px] lgl:w-[500px] lgl:h-[680px]  z-10' src={banner} alt="" />
+                {/* <img data-aos="zoom-in" data-aos-duration="500"
+                data-aos-easing="linear" className='w-96' src={photo} alt="" /> */}
                 {/* <div className="absolute bottom-0 w-[350px] h-[300px] lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center">
 
                 </div> */}
