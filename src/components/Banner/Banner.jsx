@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import banner from '../../assets/banner1.png'
 // import rounded from '../../assets/white-img.png'
 import resume from '../../assets/resume/Noornabi Resume for React Developer.pdf'
-import photo from '../../../src/assets/Untitled design.png'
+import photo from '../../../src/assets/photopea1.png'
 
 
 const Banner = () => {
@@ -104,10 +104,10 @@ const Banner = () => {
 
             {/* Right Banner Part */}
             <div  className='w-full lgl:w-1/2 flex justify-center items-center'>
-                <img data-aos="zoom-in" data-aos-duration="500"
-                data-aos-easing="linear" className='w-[300px] h-[400px] lgl:w-[500px] lgl:h-[680px]  z-10' src={banner} alt="" />
                 {/* <img data-aos="zoom-in" data-aos-duration="500"
-                data-aos-easing="linear" className='w-96' src={photo} alt="" /> */}
+                data-aos-easing="linear" className='w-[300px] h-[400px] lgl:w-[500px] lgl:h-[680px]  z-10' src={banner} alt="" /> */}
+                <img data-aos="zoom-in" data-aos-duration="500"
+                data-aos-easing="linear" className='w-[300px] lg:w-[500px] z-10' src={photo} alt="" />
                 {/* <div className="absolute bottom-0 w-[350px] h-[300px] lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center">
 
                 </div> */}
