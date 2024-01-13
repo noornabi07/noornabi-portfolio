@@ -27,8 +27,8 @@ const Education = () => {
                 <div className='mt-20 w-full flex justify-between border-l-[6px] border-l-black border-opacity-30 '>
                     <ResumeCard
                         title="Diploma in Computer Science"
-                        subTitle="Present 2023 - Session 2019-2020"
-                        result="Coming"
+                        subTitle="Passed 2023 - Session 2019-2020"
+                        result="3.79/4.00"
                         des="The training provided by universities in order to work in various sector of the economy of area of culture"
                     ></ResumeCard>
                 </div>

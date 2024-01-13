@@ -5,6 +5,7 @@ import Projects from '../Projects/Projects';
 import Resume from '../Resume/Resume';
 import Contact from '../Contact/Contact';
 import BestSkills from '../BestSkills/BestSkills';
+import Certificate from '../Certificate/Certificate';
 // import Features from '../Features/Features';
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
             <Feature></Feature>
             <Projects></Projects>
             <Resume></Resume>
+            <Certificate></Certificate>
             <Contact></Contact>
         </div>
     );
